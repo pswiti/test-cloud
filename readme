@@ -1,0 +1,5 @@
+az storage blob upload-batch \
+  --account-name staticwebdemo123 \
+  --source ./website \
+  --destination \$web \
+  --auth-mode login
