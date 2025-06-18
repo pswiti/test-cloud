@@ -1,9 +1,12 @@
 az storage blob upload-batch \
-  --account-name staticwebdemo123 \
+  --account-name <name> \
   --source ./website \
-  --destination \$web \
+  --destination '$web' \
   --auth-mode login
 
 
 
-https://staticwebdemo123.z13.web.core.windows.net/
+
+Storage Blob Data Owner permission needed
+
+https://<storageaccountname>.z13.web.core.windows.net/
