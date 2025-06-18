@@ -3,3 +3,7 @@ az storage blob upload-batch \
   --source ./website \
   --destination \$web \
   --auth-mode login
+
+
+
+https://staticwebdemo123.z13.web.core.windows.net/
